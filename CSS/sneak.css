@@ -1,0 +1,346 @@
+/*Genaral styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.section {
+    width: 100%;
+}
+/*nav styles*/
+.container{
+    background-color: #ffffff;
+    color: #000000;
+    
+    width: 100%;
+    height: 4.5rem;   
+}
+
+.nav-link {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin-right: 10%;
+    padding-top: 2rem;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 10px;         
+}
+
+.nav-link li a:hover {
+    color: rgb(238, 72, 202);
+}
+
+.nav-logo-container {
+    margin-top: .5rem;
+    float: left;
+}
+
+.nav-logo {
+    width: 10rem;
+    height: 3rem;
+    margin-left: 4rem;
+}
+/*Inicio seccion 1*/
+.main-section {
+    background-color: rgb(248, 135, 147);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 35rem;
+    width: auto;
+}
+.main-content {
+    padding-top: 15%; /*temporal*/
+    padding-bottom: 22%;
+}
+.tittle {
+    
+    font-family: Montserrat;
+    font-size: 2.5rem;
+}
+.phrase1 {
+    margin-top: 1%;
+   
+    color: #ffffff;
+}
+.phrase2 {
+    
+    margin-bottom: 4%;
+    color: #ffffff;
+}
+.main-button {
+    background-color:#ffffff;
+    padding-top: 0.5rem;
+    padding-right: 2rem; 
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(207, 26, 168);
+
+}
+
+
+
+/*fin seccion1*/
+
+/*nav styles*/
+.container2{
+    background-color: #ffffff;
+    color: #000000;
+    
+    width: 100%;
+    height: 4.5rem;   
+}
+
+.nav-link2 {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 10%;
+    padding-top: 2rem;
+}
+
+.nav-link2 li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 10px;         
+}
+
+.nav-link2 li a:hover {
+    color: rgb(238, 72, 202);
+}
+
+/*seccion grilla portafolio*/
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 55rem;
+    margin-left: 15rem;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(248, 135, 147);
+    width: 16rem;
+    height: 13rem;
+    
+  
+  }
+  .branding{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: Montserrat_Light;
+    font-size: 0.8rem;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 20rem;
+  }
+  .three {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 17rem;
+  }
+  .four {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #eee3e3;
+    width: 16rem;
+    height: 8.5rem;
+    
+  }
+  .web{
+    color: rgb(248, 135, 147);
+    text-align: center;
+    
+    margin-top: 2rem;
+    font-family: Montserrat_Light;
+    font-size: 0.8rem;
+  }
+  .five {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 15.5rem;
+  }
+  .six {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 26rem;
+  }
+  .seven{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(248, 135, 147);
+    width: 16rem;
+    height: 19rem;
+  }
+  .photography{
+    color: #ffffff;
+    text-align: center;
+    
+    margin-top: 5rem;
+    font-family: Montserrat_Light;
+    font-size: 0.8rem;
+  }
+  .eight{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 10rem;
+  }
+  .nine{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(32, 174, 221);
+    width: 16em;
+    height: 10rem;
+  }
+  .ten{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    width: 16rem;
+    height: 10rem;
+  }
+  /*fin grilla*/
+
+  /*boton*/
+  .container3{
+      justify-content: center;
+      display: flex;
+  }
+  .more{
+      background-color: rgb(248, 135, 147);
+        margin-top: 1.5rem;
+        text-align: center;
+        border: none;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+       
+  }
+  .line{
+      text-decoration: none;
+      color: #ffffff;
+  }
+
+  /*footer-section*/
+.footer-section{
+    margin-top: 4rem;
+    text-align: center;
+}
+.phrase{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+/*icons*/
+
+.icons{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.face{
+    width: 1rem;
+    height: 1rem;
+}
+.twiter{
+    width: 1rem;
+    height: 1rem;
+}
+.dribbble{
+    width: 1rem;
+    height: 1rem;
+}
+.google{
+    width: 1rem;
+    height: 1rem;
+}
+.youtube{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
